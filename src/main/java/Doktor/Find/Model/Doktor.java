@@ -43,6 +43,12 @@ public class Doktor {
         this.phone = phone;
     }
 
+    public Doktor()
+    {
+
+    }
+
+
     public String getFirstName() {
         return firstName;
     }

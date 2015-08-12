@@ -13,7 +13,7 @@ public class Address {
 
     private String state;
 
-    private String Country;
+    private String country;
 
     private String pinCode;
 
@@ -28,7 +28,7 @@ public class Address {
         this.otherReferences = otherReferences;
         this.city = city;
         this.state = state;
-        Country = country;
+        this.country = country;
         this.pinCode = pinCode;
     }
 
@@ -49,7 +49,7 @@ public class Address {
     }
 
     public String getCountry() {
-        return Country;
+        return this.country;
     }
 
     public String getPinCode() {
